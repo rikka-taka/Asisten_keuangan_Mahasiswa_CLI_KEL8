@@ -79,11 +79,7 @@ void kalkulatorDiskon() {
     printf("Harga Akhir     : Rp %.2f\n", hargaAkhir);
 }
 
-void kalkulatorDiskon(){
 
-}
-
-void splitBill(){
 void splitBill() {
     float totalTagihan;
     int jumlahOrang;
@@ -118,7 +114,7 @@ void bungaTabungan(){
     scanf("%f", &saldoAwal);
 
     printf("Masukkan persentase bunga bulanan : ");
-    scanf("%f", bungaPersen);
+    scanf("%f", &bungaPersen);
 
     //Logika perhitungan
     totalBunga = saldoAwal * (bungaPersen / 100);
