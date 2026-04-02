@@ -49,6 +49,27 @@ void kalkulatorDiskon(){
 }
 
 void splitBill(){
+void splitBill() {
+    float totalTagihan;
+    int jumlahOrang;
+    printf("\nKALKULATOR SPLIT BILL\n");
+
+    printf("Masukkan total tagihan: ");
+    scanf("%f", &totalTagihan);
+
+    printf("Masukkan jumlah orang: ");
+    scanf("%d", &jumlahOrang);
+
+    if (jumlahOrang <= 0) {
+        printf("Jumlah orang tidak valid!\n");
+        return;
+    }
+    float perOrang = totalTagihan / jumlahOrang;
+    
+    printf("\nHASIL\n");
+    printf("Total tagihan : Rp %.2f\n", totalTagihan);
+    printf("Jumlah orang  : %d\n", jumlahOrang);
+    printf("Per orang     : Rp %.2f\n", perOrang);
 
 }
 
