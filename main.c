@@ -77,5 +77,20 @@ void kalkulatorDiskon() {
     printf("Diskon          : %.2f%%\n", persenDiskon);
     printf("Potongan Harga  : Rp %.2f\n", jumlahDiskon);
     printf("Harga Akhir     : Rp %.2f\n", hargaAkhir);
-    
+}
+
+void kalkulatorDiskon(){
+
+}
+
+void splitBill(){
+
+}
+
+void bungaTabungan(){
+
+}
+
+void sisaUangJajan(){
+
 }
