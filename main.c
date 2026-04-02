@@ -53,7 +53,24 @@ void splitBill(){
 }
 
 void bungaTabungan(){
+    float saldoAwal, bungaPersen, totalBunga, totalAkhir;
 
+    printf("\n---Kalkulator Bunga Tabungan Sederhana---\n");
+
+    //Input dari pengguna
+    printf("Masukkan saldo awal : ");
+    scanf("%f", &saldoAwal);
+
+    printf("Masukkan persentase bunga bulanan : ");
+    scanf("%f", bungaPersen);
+
+    //Logika perhitungan
+    totalBunga = saldoAwal * (bungaPersen / 100);
+    totalAkhir = saldoAwal + totalBunga;
+
+    //Output hasil
+    printf("\nTotal bunga bulan ini : Rp %.2f\n", totalBunga);
+    printf("\nSaldo akhir : Rp %.2f\n", totalAkhir);
 }
 
 void sisaUangJajan(){
