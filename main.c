@@ -43,3 +43,19 @@ int main() {
 
     return 0;
 }
+
+void kalkulatorDiskon(){
+
+}
+
+void splitBill(){
+
+}
+
+void bungaTabungan(){
+
+}
+
+void sisaUangJajan(){
+
+}
